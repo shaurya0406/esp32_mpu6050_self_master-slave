@@ -1,10 +1,8 @@
 ## Overview
 
-This demonstrates basic usage of I2C driver by running two tasks on I2C bus:
-
 1. Read external I2C MPU6050 Gyro/Accelerometer sensor.
 2. Use one of ESP32’s I2C port (master mode) to read and write to another I2C port (slave mode) in ESP32.
-A push button on the GPIO0 is attached to an interrupt and the Master sends the digital input to slave over I2C and the slave turns on the built_in LED on GPIO2 based on the received digital input.
+A push button on the GPIO0 is attached to an interrupt and the Master sends the digital input to slave over I2C and the slave turns on the built_in LED on GPIO2                based on the received digital input.
 
 
 ### Hardware Required
